@@ -11,3 +11,6 @@ st.metric(
     delta=15,             # Variação em relação ao valor anterior
     delta_color="off",      # Cor do delta (pode ser "normal", "inverse" ou "off")
 )
+st.selectbox(
+     'Qual a sua cor favorita?',
+     ('Azul', 'Vermelho', 'Verde'))
