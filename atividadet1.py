@@ -44,6 +44,6 @@ st.radio(
     ],
 )
 
- st.color_picker("Pick A Color", "#00f900")
+st.color_picker("Pick A Color", "#00f900")
 
 st.feedback("stars")
