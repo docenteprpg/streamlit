@@ -9,5 +9,5 @@ st.metric(
     label="Métrica de Vendas",  # Nome ou título da métrica
     value=100,          # Valor atual da métrica
     delta=15,             # Variação em relação ao valor anterior
-    delta_color="normal",      # Cor do delta (pode ser "normal", "inverse" ou "off")
+    delta_color="off",      # Cor do delta (pode ser "normal", "inverse" ou "off")
 )
