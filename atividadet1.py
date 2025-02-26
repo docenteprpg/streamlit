@@ -4,6 +4,7 @@ st.header('st.button')
 st.button('Say hello')
 st.toggle("Toggle")
 st.text_area("Enter text")
+st.text_input("Movie title", "Life of Brian")
 st.slider('Quantos anos você tem?', 0, 130, 25)
 
 st.select_slider(
@@ -62,4 +63,17 @@ st.color_picker("Pick A Color", "#00f900")
 
 st.feedback("stars")
 
+
+st.number_input("Insert a number")
+
+st.chat_input("Say something")
+
+df = pd.DataFrame(
+    [
+       {"command": "st.selectbox", "rating": 4, "is_widget": True},
+       {"command": "st.balloons", "rating": 5, "is_widget": False},
+       {"command": "st.time_input", "rating": 3, "is_widget": True},
+   ]
+)
+edited_df = st.data_editor(df)
 
