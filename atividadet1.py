@@ -5,6 +5,20 @@ st.button('Say hello')
 st.toggle("Toggle")
 st.text_area("Enter text")
 st.slider('Quantos anos você tem?', 0, 130, 25)
+
+st.select_slider(
+    "Select a color of the rainbow",
+    options=[
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "indigo",
+        "violet",
+    ],
+)
+
 st.metric(
     label="Métrica de Vendas",  # Nome ou título da métrica
     value=100,          # Valor atual da métrica
@@ -47,3 +61,5 @@ st.radio(
 st.color_picker("Pick A Color", "#00f900")
 
 st.feedback("stars")
+
+
