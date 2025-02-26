@@ -14,3 +14,18 @@ st.metric(
 st.selectbox(
      'Qual a sua cor favorita?',
      ('Azul', 'Vermelho', 'Verde'))
+
+st.multiselect(
+     'Quais são suas cores favoritas?',
+     ['Verde', 'Amarelo', 'Vermelho', 'Azul'],
+     ['Amarelo', 'Vermelho'])
+
+st.checkbox('Sorvete')
+st.checkbox('Café')
+st.checkbox('Refrigerante')
+
+st.write("Sucesso! Aqui está o seu 🍦")
+
+
+options = ["North", "East", "South", "West"]
+selection = st.pills("Directions", options, selection_mode="multi")
