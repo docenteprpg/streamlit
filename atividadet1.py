@@ -83,5 +83,5 @@ st.time_input("Set an alarm for", datetime.time(8, 45))
 
 st.audio_input("Record a voice message")
 
-st.camera_input("Take a picture", disabled=not enable)
+
 st.file_uploader("Choose a file")
