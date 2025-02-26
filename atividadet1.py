@@ -86,4 +86,12 @@ st.audio_input("Record a voice message")
 
 st.file_uploader("Choose a file")
 st.camera_input("Tire uma foto")
+
+url_gif = 'https://media.giphy.com/media/l0K4j5bQLR4dx3TtG/giphy.gif'
+st.image(url_gif, caption='GIF Animado', use_column_width=True)
+
 # st.image()
+
+st.file_uploader(
+    "Choose a CSV file", accept_multiple_files=True
+)
