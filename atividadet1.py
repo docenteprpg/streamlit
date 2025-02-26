@@ -43,3 +43,7 @@ st.radio(
         "Never stop learning.",
     ],
 )
+
+ st.color_picker("Pick A Color", "#00f900")
+
+st.feedback("stars")
