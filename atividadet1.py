@@ -86,4 +86,4 @@ st.audio_input("Record a voice message")
 
 st.file_uploader("Choose a file")
 st.camera_input("Tire uma foto")
-
+# st.image()
