@@ -30,6 +30,10 @@ st.write("Sucesso! Aqui está o seu 🍦")
 options = ["North", "East", "South", "West"]
 selection = st.pills("Directions", options, selection_mode="multi")
 
+selection = st.segmented_control(
+    "Directions", options, selection_mode="multi"
+)
+
 st.radio(
     "What's your favorite movie genre",
     [":rainbow[Comedy]", "***Drama***", "Documentary :movie_camera:"],
